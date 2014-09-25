@@ -7,7 +7,8 @@
  /* surf header */
 
 header {
-   background-image: url("assets/header.jpg");
+  background-color: lightblue;
+   /* background-image: url("assets/header.jpg"); */
 height: 523px;
 width: 1300px;
 font-family: Oswald, sans-serif;
@@ -57,6 +58,7 @@ transform: translateY(-50%);
   top: 10px;
   left: 260px;
 }
+/* body left */
 h2 {
   font-family:Oswald, sans-serif;
   font-weight: 300;
@@ -65,4 +67,22 @@ h2 {
 }
 body {
   font-family: Open Sans, sans-serif;
+}
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  /* quotes: "\201C""\201D""\2018""\2019"; */
+}
+blockquote:before {
+  color: #ccc;
+  /* content: open-quote; */
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
 }
