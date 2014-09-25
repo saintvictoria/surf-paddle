@@ -66,6 +66,7 @@ transform: translateY(-50%);
 }
 h2 {
   font-family:Oswald, sans-serif;
+  color: 083452;
   font-weight: 300;
   color:#083452;
   font-size: 75px;
@@ -74,10 +75,11 @@ main {
   font-family: Open Sans, sans-serif;
 }
 blockquote {
-  background: #f9f9f9;
+  background: #ffffff;
   border-left: 10px solid #ccc;
   margin: 1.5em 10px;
   padding: 0.5em 10px;
+  color: 1E74B6;
   /* quotes: "\201C""\201D""\2018 ""\2019"; */
 }
 blockquote:before {
@@ -95,7 +97,11 @@ blockquote p {
 }
 /* right side of main */
 #sidebar {
+  color: 1E74B6;
   float: right;
   width: 25%;
   margin-right: 5px
+}
+h3 {
+  color: #1E74B6;
 }
