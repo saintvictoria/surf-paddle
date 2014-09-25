@@ -90,6 +90,11 @@ blockquote:before {
 blockquote p {
   display: inline;
 }
+/* navogation */
+.span {
+  float: left;
+
+}
 /* right side of main */
 #sidebar {
   float: right;
