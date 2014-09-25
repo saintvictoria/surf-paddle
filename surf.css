@@ -59,13 +59,18 @@ transform: translateY(-50%);
   left: 260px;
 }
 /* body left */
+#content {
+  float: left;
+  width: 60%;
+  margin-left: 70px;
+}
 h2 {
   font-family:Oswald, sans-serif;
   font-weight: 300;
   color:#083452;
   font-size: 75px;
 }
-body {
+main {
   font-family: Open Sans, sans-serif;
 }
 blockquote {
@@ -73,16 +78,21 @@ blockquote {
   border-left: 10px solid #ccc;
   margin: 1.5em 10px;
   padding: 0.5em 10px;
-  /* quotes: "\201C""\201D""\2018""\2019"; */
+  /* quotes: "\201C""\201D""\2018 ""\2019"; */
 }
 blockquote:before {
   color: #ccc;
-  /* content: open-quote; */
   font-size: 4em;
-  line-height: 0.1em;
+  line-height: 0.8em;
   margin-right: 0.25em;
   vertical-align: -0.4em;
 }
 blockquote p {
   display: inline;
+}
+/* right side of main */
+#sidebar {
+  float: right;
+  width: 25%;
+  margin-right: 5px
 }
