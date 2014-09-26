@@ -103,11 +103,11 @@ span {
     margin-right: 5px;
     margin-top: 10%;
 }
-.avatar{
-  clear: both;
-  float: right;
-  margin-top: 80px
-  margin-right:90px;
+.avatar {
+    clear: both;
+    float: right;
+    margin-top: 80px;
+    margin-right:90px;
 }
 
 .sidebarh3 {
@@ -115,16 +115,26 @@ span {
     clear: right;
 }
 footer {
-  clear:both;
-}
-.footerh3 {
-  color: #083452;
-  text-align: center;
-}
-.opacity {
-    opacity: 0.;
-    }
+    width: 1300px;
+    margin: auto;
+    clear: both;
+    border-top: 2px solid #E4E9EC;
 
-.opacity::hover {
+}
+.footerh2{
+    text-align: center;
+    color:#083452;
+    font-family: Oswald;
+    font-weight: 600;
+}
+
+.img {
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+    float: left;
+}
+
+.img:hover {
     opacity: 1.0;
+    filter: alpha(opacity=100);
 }
