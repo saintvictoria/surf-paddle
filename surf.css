@@ -100,14 +100,14 @@ span {
 #sidebar {
     float: right;
     width: 25%;
-    margin-right: 5px;
+    margin-right: 10px;
     margin-top: 10%;
 }
 .avatar {
     clear: both;
     float: right;
     margin-top: 80px;
-    margin-right:90px;
+    margin-right: 90px;
 }
 
 .sidebarh3 {
@@ -121,11 +121,15 @@ footer {
     border-top: 2px solid #E4E9EC;
 
 }
-.footerh2{
+.footerh2 {
     text-align: center;
-    color:#083452;
+    color: #083452;
     font-family: Oswald;
     font-weight: 600;
+}
+#background {
+  background-color: #083452;
+  overflow: auto;
 }
 
 .img {
@@ -137,4 +141,12 @@ footer {
 .img:hover {
     opacity: 1.0;
     filter: alpha(opacity=100);
+}
+footer2 {
+  width: 1300px;
+  margin: auto;
+  clear:both;
+  background: red;
+  height: 20px;
+}
 }
