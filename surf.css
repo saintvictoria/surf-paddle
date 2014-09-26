@@ -92,18 +92,39 @@ blockquote p {
 }
 /* navigation */
 span {
-    
+
     background-color: brown;
 
 }
 /* right side of main */
 #sidebar {
-    color: 1E74B6;
     float: right;
     width: 25%;
     margin-right: 5px;
     margin-top: 10%;
 }
-h3 {
+.avatar{
+  clear: both;
+  float: right;
+  margin-top: 80px
+  margin-right:90px;
+}
+
+.sidebarh3 {
     color: #1E74B6;
+    clear: right;
+}
+footer {
+  clear:both;
+}
+.footerh3 {
+  color: #083452;
+  text-align: center;
+}
+.opacity {
+    opacity: 0.;
+    }
+
+.opacity::hover {
+    opacity: 1.0;
 }
