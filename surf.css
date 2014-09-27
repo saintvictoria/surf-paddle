@@ -61,8 +61,8 @@ h1 {
 /* body left */
 #content {
     float: left;
-    width: 60%;
-    margin-left: 70px;
+    width: 800px;
+    margin-left: 68px;
 }
 h2 {
     font-family: Oswald, sans-serif;
@@ -102,9 +102,9 @@ span {
 /* right side of main */
 #sidebar {
     float: right;
-    width: 25%;
+    width: 500px;
     margin-right: 10px;
-    margin-top: 10%;
+    margin-top: 12%;
 }
 .avatar {
     clear: both;
