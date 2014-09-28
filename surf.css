@@ -64,18 +64,28 @@ h1 {
     margin-left: 165px;
     margin-right: 0;
 }
+a {
+  color: #A3B3BE;
+}
+a.active {
+  color: #196FB1;
+}
 h2 {
     font-family: "Oswald", sans-serif;
     font-weight: 400;
-    font-size: 44pt;
+    font-size: 43pt;
     margin-left: 0px;
-    line-height: 130%;
-    margin-top: 58px;
+    line-height: 121%;
+    margin-top: 60px;
     margin-bottom: 0px;
     margin-right: 0;
 }
 .articlemain {
     font-family: "Open Sans", sans-serif;
+    font-size: 11.5pt;
+    font-weight: 400;
+    line-height: 26px;
+    /* margin-top: 35px; */
 }
 .article-writer {
     color: #005CAA;
@@ -84,6 +94,10 @@ h2 {
 .article-date {
     color: #A1B1BD;
 }
+article > p {
+  margin-top: 39px;
+  /* margin-left: 2px; */
+}
 
 blockquote::before {
     margin-right: 0.25em;
@@ -91,7 +105,7 @@ blockquote::before {
 }
 blockquote {
     background: #ffffff;
-    border-left: 2px solid lightgray;
+    border-left: 2px solid #A3B3BE;
     margin: 9px;
     padding: 9px;
     color: #1E74B6;
@@ -108,10 +122,10 @@ blockquote p {
 .action-button {
   display: inline-block;
   font-size: 10pt;
+  color: white;
   /* position: relative; */
 }
 .action-button > span {
-  background-image: url("assets/icon-comment.png");
   height: 18px;
   width: 21px;
   border: 6px solid black;
@@ -123,6 +137,15 @@ blockquote p {
   padding-left: 11px;
   padding-right: 9px;
   padding-bottom: 1px;
+}
+.action-button .comment {
+  background-image: url("assets/icon-comment.png");
+}
+.action-button .upload {
+  background-image: url("assets/icon-upload.png");
+}
+.action-button .share {
+  background-image: url("assets/icon-share.png");
 }
 .action-button > div {
   display: inline-block;
@@ -192,7 +215,7 @@ blockquote p {
     margin-top: 3px;
     text-align: right;
     margin-right:60px;
-    color: gray;
+    color: #A3B3BE;
     text-decoration: underline;
 
 }
@@ -250,6 +273,17 @@ footer {
     background: #083452;
     height: 100px;
 }
+.copyright {
+  position: relative;
+  top: 25px;
+  left: 166px;
+}
 .navigation {
   float:right;
+  margin-right: 134px;
+  color: #A3B3BE;
+}
+  .navigation > span {
+  border-right: 1px solid #A3B3BE;
+  padding-right: 5px;
 }
