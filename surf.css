@@ -53,24 +53,26 @@ h1 {
     top: 10px;
     left: 198px;
 }
+.middle {
+    width: 1300px;
+    margin: 0;
+}
 /* body left */
 #content {
     float: left;
     width: 600px;
-    margin-left: 200px;
-    margin-right: auto;
+    margin-left: 165px;
+    margin-right: 0;
 }
 h2 {
     font-family: "Oswald", sans-serif;
     font-weight: 400;
-    font-size: 59px;
+    font-size: 44pt;
     margin-left: 0px;
     line-height: 130%;
-    margin-top: 57px;
+    margin-top: 58px;
     margin-bottom: 0px;
     margin-right: 0;
-}
-
 }
 .articlemain {
     font-family: "Open Sans", sans-serif;
@@ -100,14 +102,42 @@ blockquote p {
     display: inline;
 }
 /* navigation */
-span {
-    background-color: brown;
+.nav {
+    overflow: auto;
+    opacity: 0.4;
+    float: left;
 }
+.nav:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+.comment {
+    background-color: #083452;
+    float: left;
+    color: white;
+    margin-left: 25px;
+}
+.upload {
+    background-color: #083452;
+    float: left;
+    color: white;
+    margin-left: 30px;
+
+}
+.share {
+    background-color: #083452;
+    float: left;
+    color: white;
+    margin-left: 35px;
+}
+
 /* right side of main */
 #sidebar {
     float: left;
     text-align: center;
     margin-top: 84px;
+    margin-right:0;
+    margin-left: 85px
 }
 .avatar {
     clear: both;
@@ -117,22 +147,29 @@ span {
 }
 .annemarie {
     color: #005CAA;
-    font-size: 15pt;
+    font-size: 14pt;
 }
 .socialnetwork {
     color: #A1B1BD;
 }
+.ads {
+  margin-top: 55px;
+}
 .aboutthisad {
+    margin-top: 3px;
     text-align: right;
+    margin-right:13px;
     color: gray;
+    text-decoration: underline;
+   
 }
 .sidebarh3 {
     color: #1E74B6;
     clear: right;
-    font-size: 21px;
+    font-size: 20px;
     font-family: "Oswald";
     font-weight: 400;
-    margin-top: 67px;
+    margin-top: 0;
 
 }
 .about {
@@ -141,7 +178,7 @@ span {
 }
 #bottompics {
     width: 1300px;
-    margin: auto;
+    margin: 0;
     clear: both;
     border-top: 2px solid #E4E9EC;
 
@@ -169,7 +206,7 @@ span {
 }
 footer {
     width: 1300px;
-    margin: auto;
+    margin: 0;
     clear: both;
     background: #083452;
     height: 100px;
