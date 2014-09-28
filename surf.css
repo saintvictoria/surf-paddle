@@ -101,11 +101,42 @@ blockquote {
 blockquote p {
     display: inline;
 }
-/* navigation */
 .nav {
+  position: relative;
+  margin-left: 3px;
+}
+.action-button {
+  display: inline-block;
+  font-size: 10pt;
+  /* position: relative; */
+}
+.action-button > span {
+  background-image: url("assets/icon-comment.png");
+  height: 18px;
+  width: 21px;
+  border: 6px solid black;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-position-x: 3px;
+  background-position-y: 2px;
+  padding-top: 1px;
+  padding-left: 11px;
+  padding-right: 9px;
+  padding-bottom: 1px;
+}
+.action-button > div {
+  display: inline-block;
+  background-color: #A3B3BE;
+  border: 7px solid #A3B3BE;
+  margin-right: 12px;
+}
+.action-button > div > span {
+  position:relative;
+}
+/* navigation */
+/* .nav {
     overflow: auto;
     opacity: 0.4;
-    float: left;
 }
 .nav:hover {
     opacity: 1.0;
@@ -129,15 +160,16 @@ blockquote p {
     float: left;
     color: white;
     margin-left: 35px;
-}
+} */
 
 /* right side of main */
 #sidebar {
     float: left;
+    width: 400px;
     text-align: center;
     margin-top: 84px;
     margin-right:0;
-    margin-left: 85px
+    margin-left: 35px;
 }
 .avatar {
     clear: both;
@@ -147,7 +179,8 @@ blockquote p {
 }
 .annemarie {
     color: #005CAA;
-    font-size: 14pt;
+    font-size: 12pt;
+    padding-top: 8px;
 }
 .socialnetwork {
     color: #A1B1BD;
@@ -158,30 +191,36 @@ blockquote p {
 .aboutthisad {
     margin-top: 3px;
     text-align: right;
-    margin-right:13px;
+    margin-right:60px;
     color: gray;
     text-decoration: underline;
-   
+
 }
 .sidebarh3 {
     color: #1E74B6;
     clear: right;
-    font-size: 20px;
+    font-size: 17px;
+    text-align: left;
     font-family: "Oswald";
     font-weight: 400;
     margin-top: 0;
+    padding-top:0;
+    margin-left: 63px;
 
 }
 .about {
-    margin-top: 60px;
-    width: 300px;
+    margin-top: 47px;
+    width: 335px;
+}
+.aboutwriter {
+    text-align: left;
+    margin-left: 63px;
 }
 #bottompics {
     width: 1300px;
     margin: 0;
     clear: both;
     border-top: 2px solid #E4E9EC;
-
 }
 .bottompicsh2 {
     text-align: center;
@@ -210,4 +249,7 @@ footer {
     clear: both;
     background: #083452;
     height: 100px;
+}
+.navigation {
+  float:right;
 }
