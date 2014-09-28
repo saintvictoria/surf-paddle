@@ -61,30 +61,35 @@ h1 {
 /* body left */
 #content {
     float: left;
-    width: 800px;
-    margin-left: 68px;
+    width: 600px;
+    margin-left: 200px;
+    margin-right: auto;
 }
 h2 {
     font-family: Oswald, sans-serif;
-    font-weight: 700;
-    color: #083452;
-    font-size: 47pt;
-    line-height: 100%;
-    margin-left: 136px;
-    margin-top: 69px;
+    font-weight: 400;
+    font-size: 59px;
+    margin-left: 0px;
+    line-height: 130%;
+    margin-top: 57px;
+    margin-bottom: 0px;
+    margin-right: 0;
 }
-main {
-    font-family: Open Sans, sans-serif;
+
 }
+.articlemain {
+  font-family: Open Sans, sans-serif;
+}
+
 blockquote::before {
     margin-right: 0.25em;
     vertical-align: -0.4em;
 }
 blockquote {
     background: #ffffff;
-    border-left: 5px solid lightgray;
-    margin: 1.5em 10px;
-    padding: 0.5em 10px;
+    border-left: 2px solid lightgray;
+    margin:  9px;
+    padding: 9px;
     color: #1E74B6;
     /* quotes: "\201C""\201D""\2018 ""\2019"; */
     font-size: 30px;
@@ -102,9 +107,10 @@ span {
 /* right side of main */
 #sidebar {
     float: right;
-    width: 500px;
+    width: 465px;
     margin-right: 10px;
-    margin-top: 12%;
+    margin-left: 0px;
+    margin-top: 84px;
 }
 .avatar {
     clear: both;
@@ -116,6 +122,15 @@ span {
 .sidebarh3 {
     color: #1E74B6;
     clear: right;
+    font-size: 21px;
+    font-family: Oswald;
+    font-weight: 400;
+    margin-top: 67px;
+
+}
+.about {
+    margin-top: 60px;
+    width: 300px;
 }
 #bottompics {
     width: 1300px;
@@ -131,8 +146,8 @@ span {
     font-weight: 600;
 }
 #background {
-  background-color: #083452;
-  overflow: auto;
+    background-color: #083452;
+    overflow: auto;
 }
 
 .img {
@@ -146,10 +161,9 @@ span {
     filter: alpha(opacity=100);
 }
 footer {
-  width: 1300px;
-  margin: auto;
-  clear:both;
-  background: red;
-  height: 20px;
+    width: 1300px;
+    margin: auto;
+    clear: both;
+    background: red;
+    height: 20px;
 }
-
