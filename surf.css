@@ -245,6 +245,7 @@ blockquote p {
 #background {
     background-color: #083452;
     overflow: auto;
+    position: relative;
 }
 #footerpics > div {
     /* display: inline-block; */
@@ -253,10 +254,9 @@ blockquote p {
     font-family: "Oswald";
     font-weight: 700;
     font-size: 21pt;
-    position: relative;
+    /* position: relative; */
 }
 #footerpics > div > div {
-    float: left;
     height: 329px;
     width: 324px;
     opacity: 0.4;
@@ -271,9 +271,9 @@ blockquote p {
 #footerpics > div > div > div {
     width: 250px;
     display: inline-block;
-    /* position: absolute; */
+    position: absolute;
     bottom: 7px;
-    left: 4px;
+    margin-left: 19px;
 }
 .img1 {
     background-image: url("assets/article-image-1.jpg");
