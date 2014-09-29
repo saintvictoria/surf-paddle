@@ -79,7 +79,7 @@ h2 {
     margin-right: 0;
     font-family: "Oswald";
     font-weight: 400;
-    color:#083452
+    color: #083452
 }
 .articlemain {
     font-family: "Open Sans", sans-serif;
@@ -238,7 +238,6 @@ blockquote p {
     text-align: center;
     color: #083452;
     font-family: "Oswald";
-    /* font-weight: 600; */
     margin-top: 32px;
     font-size: 47pt;
     margin-bottom: 37px;
@@ -247,17 +246,48 @@ blockquote p {
     background-color: #083452;
     overflow: auto;
 }
-
-.img {
+#footerpics > div {
+    /* display: inline-block; */
+    text-transform: uppercase;
+    color: black;
+    font-family: "Oswald";
+    font-weight: 700;
+    font-size: 21pt;
+    position: relative;
+}
+#footerpics > div > div {
+    float: left;
+    height: 329px;
+    width: 324px;
     opacity: 0.4;
     filter: alpha(opacity=40);
     float: left;
 }
-
-.img:hover {
+#footerpics > div > div:hover {
     opacity: 1.0;
     filter: alpha(opacity=100);
+    color: white;
 }
+#footerpics > div > div > div {
+    width: 250px;
+    display: inline-block;
+    /* position: absolute; */
+    bottom: 7px;
+    left: 4px;
+}
+.img1 {
+    background-image: url("assets/article-image-1.jpg");
+}
+.img2 {
+    background-image: url("assets/article-image-2.jpg");
+}
+.img3 {
+    background-image: url("assets/article-image-3.jpg");
+}
+.img4 {
+    background-image: url("assets/article-image-4.jpg");
+}
+
 footer {
     width: 1300px;
     margin: 0;
