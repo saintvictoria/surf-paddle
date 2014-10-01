@@ -1,14 +1,16 @@
 /* surf website */
+$pagewidth: 1300px;
+
 /* contains whole page */
-#container {
-    width: 1300px;
+.id-container {
+    width: $pagewidth;
 }
 /* surf header */
 
 header {
     background-image: url("assets/header.jpg");
     height: 523px;
-    width: 1300px;
+    width: $pagewidth;
     font-family: "Open Sans", sans-serif;
 }
 /* surf headings */
@@ -54,11 +56,11 @@ h1 {
     left: 198px;
 }
 .middle {
-    width: 1300px;
+    width: $pagewidth;
     margin: 0;
 }
 /* body left */
-#content {
+.id-content {
     float: left;
     width: 600px;
     margin-left: 165px;
@@ -170,7 +172,7 @@ blockquote p {
 
 
 /* right side of main */
-#sidebar {
+.id-sidebar {
     float: left;
     width: 400px;
     text-align: center;
@@ -228,8 +230,8 @@ blockquote p {
     margin-left: 63px;
     color: #EAEEF0;
 }
-#bottompics {
-    width: 1300px;
+.id-bottompics {
+    width: $pagewidth;
     margin: 0;
     margin-top: 65px;
     border-top: 1px solid #E4E9EC;
@@ -242,12 +244,12 @@ blockquote p {
     font-size: 47pt;
     margin-bottom: 37px;
 }
-#background {
+.id-background {
     background-color: #083452;
     overflow: auto;
     position: relative;
 }
-#footerpics > div {
+.id-footerpics > div {
     /* display: inline-block; */
     text-transform: uppercase;
     color: black;
@@ -256,19 +258,19 @@ blockquote p {
     font-size: 21pt;
     /* position: relative; */
 }
-#footerpics > div > div {
+.id-footerpics > div > div {
     height: 329px;
     width: 324px;
     opacity: 0.4;
     filter: alpha(opacity=40);
     float: left;
 }
-#footerpics > div > div:hover {
+.id-footerpics > div > div:hover {
     opacity: 1.0;
     filter: alpha(opacity=100);
     color: white;
 }
-#footerpics > div > div > div {
+.id-footerpics > div > div > div {
     width: 250px;
     display: inline-block;
     position: absolute;
@@ -289,7 +291,7 @@ blockquote p {
 }
 
 footer {
-    width: 1300px;
+    width: $pagewidth;
     margin: 0;
     clear: both;
     background: #083452;
