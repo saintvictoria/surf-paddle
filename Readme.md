@@ -1,3 +1,19 @@
+First Project at The Iron Yard
+
+It was to recreate a website, using pixel-perfect and google-fonts.
+
+I used sip - color picker to match my colors.
+
+I used CSS normalise, and HTML.
+
+
+
+
+
+
+
+
+
 # 09/23/14
 
 ### Surf & Paddle
